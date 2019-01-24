@@ -35,7 +35,7 @@ pVerse[0].innerHTML = 'Am I black or am I white? Am I straight or Gay? Controver
 /*5. Bruce Lee
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
-
+pVerse[1].innerHTML = 'Knowing is not enough, we must apply.'
 
 
 /*6. Samuel L Jackson
