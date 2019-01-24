@@ -51,7 +51,9 @@ maceWin[2].innerHTML = 'Mace Windu'
 Create a div element and give it an id of "name7". Inside this div element, give it the contents of "David Ige".
 
 Append this div element to the nameParent div*/
-
+var truName = document.createElement('div');
+truName.innerHTML = 'David Ige';
+document.getElementById('nameParent').appendChild(truName);
  
 /*8. The Dos Equis Dude
 
