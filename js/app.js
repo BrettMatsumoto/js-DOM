@@ -61,6 +61,10 @@ document.getElementById('nameParent').appendChild(truName);
 Create a div element give it an id of "alias8". Inside this div element, give it the contents of "Stay Thirsty My Friends".
 
 Append this div element to the aliasParent div.*/
+var quote = document.createElement('div');
+quote.id = 'alias8';
+quote.innerHTML = 'Stay Thirsty My Friends.';
+document.getElementById('aliasParent').appendChild(quote);
 
 
 //Final Boss
