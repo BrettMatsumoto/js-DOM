@@ -28,6 +28,8 @@ newAlias.innerHTML = 'Concatenation';
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
+var pVerse = document.getElementsByClassName('profile');
+pVerse[0].innerHTML = 'Am I black or am I white? Am I straight or Gay? Controversy.'
 
 
 /*5. Bruce Lee
