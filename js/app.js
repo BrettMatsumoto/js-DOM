@@ -42,6 +42,8 @@ pVerse[1].innerHTML = 'Knowing is not enough, we must apply.'
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
+var maceWin = document.getElementsByClassName('alias');
+maceWin[2].innerHTML = 'Mace Windu'
 
 
 /*7. David Ige
