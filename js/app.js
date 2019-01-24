@@ -52,6 +52,7 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 var truName = document.createElement('div');
+truName.id ='name7';
 truName.innerHTML = 'David Ige';
 document.getElementById('nameParent').appendChild(truName);
  
@@ -60,7 +61,6 @@ document.getElementById('nameParent').appendChild(truName);
 Create a div element give it an id of "alias8". Inside this div element, give it the contents of "Stay Thirsty My Friends".
 
 Append this div element to the aliasParent div.*/
-
 
 
 //Final Boss
